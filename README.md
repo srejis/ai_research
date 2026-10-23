@@ -9,6 +9,7 @@
 | H001 | SH001 | [EXP003 Learning Trajectory](H001_dynamic_network/SH001_node_growth/EXP003_learning_trajectory/README.md) | 축소 모델 3seed·12개 분기쌍 실행 및 검증 완료 |
 | [H002 Recurrent Reasoning](H002_recurrent_reasoning/README.md) | [SH001 Shared Weight Iteration](H002_recurrent_reasoning/SH001_shared_weight_iteration/README.md) | [EXP001 Recurrent MLP](H002_recurrent_reasoning/SH001_shared_weight_iteration/EXP001_recurrent_mlp/README.md) | 3seed×3방식 80epoch 실행·검증 완료, 반복 우위 미확인 |
 | H002 | SH001 | [EXP002 Maze Propagation](H002_recurrent_reasoning/SH001_shared_weight_iteration/EXP002_maze_propagation/README.md) | 3seed×4방식 80epoch 완료·재검증 통과, 문맥 보존 반복 개선·단계 전파 부분 재현 |
+| H002 | SH001 | [EXP003 Complexity History Fusion](H002_recurrent_reasoning/SH001_shared_weight_iteration/EXP003_complexity_history_fusion/README.md) | 3seed×7방식 실행·검증 완료, 전체 기록의 추가 이익 미약·조건부 |
 
 ## 공통 관리 규칙
 
