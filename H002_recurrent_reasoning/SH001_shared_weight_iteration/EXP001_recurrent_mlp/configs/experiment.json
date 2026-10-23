@@ -1,0 +1,18 @@
+{
+  "seeds": [42, 123, 2026],
+  "pattern_seed": 42,
+  "noise_seeds": [1042, 2042, 3042],
+  "sizes": [4096, 1024, 1024],
+  "noise_probability": 0.15,
+  "epochs": 80,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "train_steps": 8,
+  "eval_steps": 32,
+  "selected_steps": [1, 2, 4, 8, 16, 32],
+  "latency_warmup": 10,
+  "latency_repeats": 30,
+  "device": "cuda",
+  "precision": "FP32"
+}
