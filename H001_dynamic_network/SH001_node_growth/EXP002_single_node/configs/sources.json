@@ -1,0 +1,21 @@
+{
+  "status": "SOURCE_REFERENCES_VERIFIED",
+  "path_base": "experiment_directory",
+  "baseline_experiment": "../EXP001_baseline_mlp",
+  "baseline_results": "../EXP001_baseline_mlp/results/mnist_baseline_seed42_20261022",
+  "checkpoints": {
+    "mid": "../EXP001_baseline_mlp/checkpoints/mnist_baseline_seed42_20261022/epoch_000.pt",
+    "complete": "../EXP001_baseline_mlp/checkpoints/mnist_baseline_seed42_20261022/epoch_001.pt"
+  },
+  "expected_sha256": {
+    "mid": "90e7e33ee9ac035e56dfdd4792d0bb45d3305ad8f45a88a0b2a6513fa898907e",
+    "complete": "8176417459a83b8cf21325e405d512003af9207f2c83d90231b6867e3d0c3db4"
+  },
+  "E_mid": 0,
+  "E_complete": 1,
+  "K": 1,
+  "shared_data": "../../../data",
+  "output_results": "results",
+  "output_checkpoints": "checkpoints",
+  "optimizer_policy": "fresh AdamW in all four branches"
+}

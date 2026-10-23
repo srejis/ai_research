@@ -1,0 +1,36 @@
+{
+  "training_executed": false,
+  "checks": [
+    {
+      "epoch": 0,
+      "checkpoint": "D:\\project\\00_ai_research\\H001_dynamic_network\\SH001_node_growth\\EXP001_baseline_mlp\\checkpoints\\mnist_baseline_seed42_20261022\\epoch_000.pt",
+      "sha256": "90e7e33ee9ac035e56dfdd4792d0bb45d3305ad8f45a88a0b2a6513fa898907e",
+      "exact_match": true,
+      "model_weights_equal": true,
+      "optimizer_state_equal": true,
+      "validation": {
+        "loss": 2.3032704097747803,
+        "accuracy": 0.055,
+        "correct": 275,
+        "count": 5000,
+        "logits_sha256": "8e0f771c64508d7e1784ab8f9482a24be2c6e46bea335bbe386e4aef4f24c5d3"
+      }
+    },
+    {
+      "epoch": 1,
+      "checkpoint": "D:\\project\\00_ai_research\\H001_dynamic_network\\SH001_node_growth\\EXP001_baseline_mlp\\checkpoints\\mnist_baseline_seed42_20261022\\epoch_001.pt",
+      "sha256": "8176417459a83b8cf21325e405d512003af9207f2c83d90231b6867e3d0c3db4",
+      "exact_match": true,
+      "model_weights_equal": true,
+      "optimizer_state_equal": true,
+      "validation": {
+        "loss": 0.16158931975364685,
+        "accuracy": 0.9504,
+        "correct": 4752,
+        "count": 5000,
+        "logits_sha256": "d9d9b5d5ccf6163bbe795310f90e379aa4a263398da0de055be3340346e522dd"
+      }
+    }
+  ],
+  "artifact_hashes_match": true
+}
