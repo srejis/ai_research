@@ -1,0 +1,21 @@
+{
+  "seeds": [42, 123, 2026],
+  "data_seed": 42,
+  "sizes": [4096, 1024, 1024],
+  "epochs": 80,
+  "batch_size": 128,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "train_steps": 8,
+  "eval_steps": 32,
+  "selected_steps": [1, 2, 4, 8, 16, 32],
+  "latency_warmup": 3,
+  "latency_repeats": 10,
+  "device": "cuda",
+  "precision": "FP32",
+  "generator": "equal mixture: disconnected random maps and separated DFS corridor maps",
+  "long_path_min_eccentricity": 8,
+  "minimum_unreachable_open_cells": 6,
+  "minimum_unreachable_open_fraction": 0.2
+}

@@ -3,3 +3,5 @@
 동일한 가중치를 반복 적용했을 때 상태와 정답 품질이 어떻게 변하는지 연구합니다. 지속적인 사고 능력은 이번 실험의 검증 대상이 아닙니다.
 
 - [SH001 — Shared Weight Iteration](SH001_shared_weight_iteration/README.md)
+
+SH001은 EXP001의 패턴 복원에 이어 [EXP002 미로 전파](SH001_shared_weight_iteration/EXP002_maze_propagation/README.md)에서 원본 입력 보존과 단계별 지도학습의 영향을 비교합니다.
