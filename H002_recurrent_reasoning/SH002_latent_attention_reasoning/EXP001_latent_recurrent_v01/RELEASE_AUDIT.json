@@ -1,0 +1,35 @@
+{
+  "preserved_files": 3799,
+  "preservation_exact": true,
+  "solver_checkpoints_exact": 9,
+  "halting_policies_exact": 9,
+  "one_halt_forward_per_iteration": true,
+  "mixed_batch_compaction_exact": true,
+  "all_release_sources_archived": {
+    "src/benchmark.py": "2ea5e2dbc9c8e68101f25bf7061342c53c2029071a6ab4fae98b79597b1a04cb",
+    "src/common.py": "c3711176d2664dc735c479137a97c3f708cfa326b6866293376fd8821659212f",
+    "src/dataset.py": "893e3220f54f835e42dd4d01972079321eb833267dd10242dc248783e7105569",
+    "src/diagnose.py": "c5bef277ebf70c32aaa13f0f9af3077abbdbcc4fb1c0e993feb50b102c619993",
+    "src/evaluate.py": "fcf4da10caa5192fa224f8f3990efe41e294c01823545506a5fb0afa1e5004a6",
+    "src/labels.py": "ee9c871b645bf42be110bdae3a4b34dd2fa651e1dce9a24f05408592aec93a89",
+    "src/model.py": "29c82a75af7db784f79212df8fee6fbf76d9478e1a32a8ad722520fa3075e1eb",
+    "src/report.py": "6f7a3e139916c9e953b2de9cf8f24f55e9e91d5203a0cdf4fb98592f2800b19f",
+    "src/run_experiment.py": "b7128e889ad60ba978a9e3b1bee4743fff4ab38f5348f5804ea5dd3607b80284",
+    "src/train_halt.py": "229e064f35e1cc1e3ebc8396478267c9feb6ed96f0bd56b71085cfd6b6218e2e",
+    "src/train_solver.py": "a589b21c60d777ab9548fb9a9af789bcb6c5913f2e2c2363d310c2ad7d2829fd",
+    "src/verify.py": "fdf16e93a12bba630a8245b82dc852f7170b57c3c8c572e632982010b95952b6",
+    "src/visualize.py": "48817d3ff7f97396f330164a4529ea10293d63454ad457eb5815898e18435dd2",
+    "tools/finalize_artifacts.py": "983d74480c612e7bb948ce76ccca8a979736b1e6173ceb75ba2b203ee967a6b0",
+    "tools/review_runtime.py": "d93472cd0d592e4bf811813b028876fe7010b5cfe704f6aedc563158d6adc25d"
+  },
+  "prompt_exact_sha256": "e79c412588bb9127ebf7c630df88812f21086b5efc5ab75f29927faa26e7c6d3",
+  "summary_sha256": "a6c7090e3f7b56bd49a929cea6044fb9bc6867e03abfad284f53d2ceace9cd3f",
+  "report_sha256": "6d9d053240aac34386c2f28aa341d7682aad52a7321df11bd083bffe51eaf468",
+  "linked_files_exist": true,
+  "all_exported_figure_hashes_exact": true,
+  "post_runtime_source_changes": {
+    "verify.py": "additional mixed-batch structural probe",
+    "visualize.py": "seed legend for diagnostic figure"
+  },
+  "visual_review_passed": true
+}

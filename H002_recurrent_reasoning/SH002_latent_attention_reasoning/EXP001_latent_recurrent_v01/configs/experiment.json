@@ -1,0 +1,43 @@
+{
+  "dataset_id": "3e4d5629b9fe7e71",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "models": [
+    "A",
+    "B",
+    "C"
+  ],
+  "hidden": 128,
+  "slots": 16,
+  "heads": 4,
+  "ffn_hidden": 512,
+  "max_steps": 16,
+  "batch_size": 256,
+  "batch_selection": "Measured FP32 BPTT: batch256=8.33GiB ~2537 samples/s; batch768=22.81GiB ~3241 samples/s. Adopt256 to retain100 optimizer steps/epoch (8000 total), rather than34/epoch at768, with conservative memory margin. No LR/architecture/labels/objective change.",
+  "eval_batch": 64,
+  "epochs": 80,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "clip_gradient": 1.0,
+  "precision": "FP32",
+  "checkpoint_selection": "maximum validation path success, then maximum SPL, then minimum policy loss, then earlier epoch",
+  "validation_every_epochs": 5,
+  "preflight_overfit_samples": 16,
+  "preflight_overfit_max_steps": 20000,
+  "halt_epochs": 10,
+  "halt_costs": [
+    0.0,
+    0.001,
+    0.01
+  ],
+  "halt_cost": "terminal_policy_loss + 2*(1-success) + lambda*T/16",
+  "halt_baseline": "EMA of previous minibatch cost, beta=.95; detached action-independent scalar",
+  "halt_selection": "no observed validation drop in overall or any Q1-Q4 success and SPL, and lower mean steps and actual batch1 latency; otherwise retain fixed16",
+  "joint_finetune": false,
+  "optional_unshared_baseline": false,
+  "diagnostic_sample_limit": 256,
+  "latency_repeats": 20
+}

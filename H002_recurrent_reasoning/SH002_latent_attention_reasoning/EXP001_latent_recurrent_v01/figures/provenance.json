@@ -1,0 +1,117 @@
+{
+  "solver_run": "20261024_163337_solver_390e42f9",
+  "halt_run": "20261024_185845_runtime_review_33602d1b",
+  "samples": [
+    {
+      "record_index": 0,
+      "map": "maze-32-32-2",
+      "scenario_id": "scen-even/maze-32-32-2-even-1.scen:2",
+      "S": [
+        17,
+        21
+      ],
+      "G": [
+        15,
+        16
+      ],
+      "wall_sha256": "95314c471774ca2055fd7df259acf8e36922c913470b8a7b6fcd9a1f0a511ae3",
+      "oracle_length": 15,
+      "image": "case_0_paths.png"
+    },
+    {
+      "record_index": 201,
+      "map": "maze-32-32-2",
+      "scenario_id": "scen-even/maze-32-32-2-even-1.scen:230",
+      "S": [
+        28,
+        3
+      ],
+      "G": [
+        9,
+        5
+      ],
+      "wall_sha256": "95314c471774ca2055fd7df259acf8e36922c913470b8a7b6fcd9a1f0a511ae3",
+      "oracle_length": 25,
+      "image": "case_201_paths.png"
+    },
+    {
+      "record_index": 1098,
+      "map": "maze-32-32-2",
+      "scenario_id": "scen-even/maze-32-32-2-even-14.scen:199",
+      "S": [
+        10,
+        6
+      ],
+      "G": [
+        13,
+        7
+      ],
+      "wall_sha256": "95314c471774ca2055fd7df259acf8e36922c913470b8a7b6fcd9a1f0a511ae3",
+      "oracle_length": 34,
+      "image": "case_1098_paths.png"
+    },
+    {
+      "record_index": 1543,
+      "map": "maze-32-32-2",
+      "scenario_id": "scen-even/maze-32-32-2-even-17.scen:29",
+      "S": [
+        3,
+        8
+      ],
+      "G": [
+        9,
+        4
+      ],
+      "wall_sha256": "95314c471774ca2055fd7df259acf8e36922c913470b8a7b6fcd9a1f0a511ae3",
+      "oracle_length": 12,
+      "image": "case_1543_paths.png"
+    },
+    {
+      "record_index": 2950,
+      "map": "maze-32-32-2",
+      "scenario_id": "scen-even/maze-32-32-2-even-25.scen:83",
+      "S": [
+        31,
+        6
+      ],
+      "G": [
+        21,
+        8
+      ],
+      "wall_sha256": "95314c471774ca2055fd7df259acf8e36922c913470b8a7b6fcd9a1f0a511ae3",
+      "oracle_length": 20,
+      "image": "case_2950_paths.png"
+    },
+    {
+      "record_index": 8217,
+      "map": "maze-32-32-2",
+      "scenario_id": "scen-random/maze-32-32-2-random-22.scen:68",
+      "S": [
+        4,
+        5
+      ],
+      "G": [
+        26,
+        23
+      ],
+      "wall_sha256": "95314c471774ca2055fd7df259acf8e36922c913470b8a7b6fcd9a1f0a511ae3",
+      "oracle_length": 134,
+      "image": "case_8217_paths.png"
+    }
+  ],
+  "files": {
+    "case_0_paths.png": "186379c633b66b8e9d72428e6b121855941a5a5cb86f48acdc0e7978734113c2",
+    "case_1098_paths.png": "94e11a4e1a3e0b614adb85970b01bbc3dc7c349bade55720885e2b630b79d00a",
+    "case_1543_paths.png": "71a02a3297d97a70a140fd8c3b3bba41ac6c65c7a1597b86dbdb5851002bd540",
+    "case_201_paths.png": "6cbabd91624daad0503ce644bed4d1a14e40439fee85a11b1b7ef3c62883cb83",
+    "case_2950_paths.png": "07ae6c71442818fcadbd0b13c3d04109d673b750a733d1408656402f0eaf6e34",
+    "case_8217_paths.png": "5f43b39c83a2cc51cff5ac34d0bc8f051da38e916b744289825183548256e57f",
+    "fixed_iteration_diagnostic.png": "b8317a9bc0b0eac4e74491ae87be4b18fd1979b8fb554247c527e959d3c11d98",
+    "latent_attention.png": "76a86a94cae02e62e10951b2416e574ea908ec4dc3bf211d67a60bcf39ebab8c",
+    "stopping_difficulty.png": "3fd66cd908c1bcdab21fb911dbeefc0a3de9e2bb8c18d06e08920d285b998ee3",
+    "stopping_quality.png": "455b9ca78e83b84d4c6a9be91bb5c9addb63ae2e32592a0aad7fee49c7b5fcdf",
+    "success_by_difficulty.png": "44dd8a2ff8437f20d2ae1acbd22d32e82ebb54f09f202fff3ef6091f1c5208a7",
+    "training_validation.png": "92d029d19552a08333824e7e8d54ff17bde88f4baabb34600540b1d51180ca33"
+  },
+  "official_coordinates_and_line_coordinates_verified": true
+}

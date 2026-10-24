@@ -1,0 +1,81 @@
+{
+  "runtime_run": "20261024_185845_runtime_review_33602d1b",
+  "source_sha256": "983d74480c612e7bb948ce76ccca8a979736b1e6173ceb75ba2b203ee967a6b0",
+  "cases": [
+    {
+      "map": "maze-32-32-4",
+      "record_index": 17101,
+      "S": [
+        1,
+        12
+      ],
+      "G": [
+        6,
+        19
+      ],
+      "optimal": 12,
+      "wall_sha256": "b61c1f5f40b0d6dc73fe8beef9f23cea22db5bc49a83d9d0b3c95e2742e5f790",
+      "image": "extra_map1_case17101.png",
+      "selection": "first B-success if one exists for this map, otherwise first problem; descriptive example only"
+    },
+    {
+      "map": "random-32-32-10",
+      "record_index": 26289,
+      "S": [
+        16,
+        4
+      ],
+      "G": [
+        16,
+        18
+      ],
+      "optimal": 14,
+      "wall_sha256": "53769982c65a9ca37496f0c99751459956a79278abda29c3f871c4be5f5ef78c",
+      "image": "extra_map2_case26289.png",
+      "selection": "first B-success if one exists for this map, otherwise first problem; descriptive example only"
+    },
+    {
+      "map": "random-32-32-20",
+      "record_index": 34078,
+      "S": [
+        9,
+        1
+      ],
+      "G": [
+        14,
+        14
+      ],
+      "optimal": 18,
+      "wall_sha256": "ecdd123a736d2a7e0ddabcfd0be2175084ab1f270a18f54b572272284ccf515b",
+      "image": "extra_map3_case34078.png",
+      "selection": "first B-success if one exists for this map, otherwise first problem; descriptive example only"
+    },
+    {
+      "map": "room-32-32-4",
+      "record_index": 43142,
+      "S": [
+        21,
+        13
+      ],
+      "G": [
+        31,
+        20
+      ],
+      "optimal": 17,
+      "wall_sha256": "b25dc0c355db4cb92cfe8bae5df418dd9104263de817a0a3f5557907b47133b4",
+      "image": "extra_map4_case43142.png",
+      "selection": "first B-success if one exists for this map, otherwise first problem; descriptive example only"
+    }
+  ],
+  "files": {
+    "autonomous_vs_forced.png": "9cd6155ec251bc30835f2344ee76d4538f2fb145597fb3f094ef39b69636c457",
+    "extra_map1_case17101.png": "47740043bed1dfde077d3ac3f2601c46cfbdb82c38d243481621742612b3222a",
+    "extra_map2_case26289.png": "03a838a4b39672f4f3ffe278845b8e65fa7b47913d98b4ffa08ba9e41e957263",
+    "extra_map3_case34078.png": "fb4fe395ed686b2c1218d4382f080b2f6c081c825847cf337829fae0abf150d4",
+    "extra_map4_case43142.png": "c9c2cc57013a345bb078e9db5bb477cafa7085a01325150743dd7f649d958379",
+    "halt_training.png": "ec41878f9e4845775449ed87bba4f0d50b7e2afbdc5aa41961b121e30b36a1d5",
+    "latent_attention_labeled.png": "59794eb33ec59437b05b312e84b1dc55adceb7834f8f0df779531f3470f7c32d",
+    "representative_latency.png": "37a567479812c3b75a2556b75e3166e286c2a693ec922127d65da7646f054f6b"
+  },
+  "official_coordinates_and_drawn_lines_verified": true
+}

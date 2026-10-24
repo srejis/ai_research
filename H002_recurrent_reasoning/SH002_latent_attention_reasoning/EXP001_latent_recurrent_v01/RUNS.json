@@ -1,0 +1,90 @@
+{
+  "workflow": {
+    "phase0": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_161159_phase0",
+    "overfit": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_162825_overfit_7bc8362c",
+    "source_hashes": {
+      "benchmark.py": "2ea5e2dbc9c8e68101f25bf7061342c53c2029071a6ab4fae98b79597b1a04cb",
+      "common.py": "c3711176d2664dc735c479137a97c3f708cfa326b6866293376fd8821659212f",
+      "dataset.py": "a2f4e12ef4b42b08bfc137700ae8187e2d99e8276006dc0d9f54c8d251b5bf0e",
+      "diagnose.py": "c5bef277ebf70c32aaa13f0f9af3077abbdbcc4fb1c0e993feb50b102c619993",
+      "evaluate.py": "fcf4da10caa5192fa224f8f3990efe41e294c01823545506a5fb0afa1e5004a6",
+      "labels.py": "ee9c871b645bf42be110bdae3a4b34dd2fa651e1dce9a24f05408592aec93a89",
+      "model.py": "a704943b5c043caa4c2870e84cb9119a45ff3d537af16759a16b9aa89dd9c9fe",
+      "report.py": "6d9bdf41b5c708793ab14ebc54a563c678c418fd90193ac620a517e1aedfcaf7",
+      "run_experiment.py": "b7128e889ad60ba978a9e3b1bee4743fff4ab38f5348f5804ea5dd3607b80284",
+      "train_halt.py": "938f38d19e42e230f058f5e11684a3efe13e019b7766d6dd89bec180695dc3d1",
+      "train_solver.py": "2a63cf22509547fdff138a300bc76c30ecc7b005ff0d1060341dd5ecc71c17e1",
+      "verify.py": "7ed24d180dc35b75a53565d6ee2f0906f41ae400b006d92627f8f0ac09f7f2a1",
+      "visualize.py": "94960bab6d0f3c3d3249eefaebb9e398b9c41a0b3a9a895b475d6a48c96a74f2"
+    },
+    "config": {
+      "dataset_id": "3e4d5629b9fe7e71",
+      "seeds": [
+        42,
+        123,
+        2026
+      ],
+      "models": [
+        "A",
+        "B",
+        "C"
+      ],
+      "hidden": 128,
+      "slots": 16,
+      "heads": 4,
+      "ffn_hidden": 512,
+      "max_steps": 16,
+      "batch_size": 256,
+      "batch_selection": "Measured FP32 BPTT: batch256=8.33GiB ~2537 samples/s; batch768=22.81GiB ~3241 samples/s. Adopt256 to retain100 optimizer steps/epoch (8000 total), rather than34/epoch at768, with conservative memory margin. No LR/architecture/labels/objective change.",
+      "eval_batch": 64,
+      "epochs": 80,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "clip_gradient": 1.0,
+      "precision": "FP32",
+      "checkpoint_selection": "maximum validation path success, then maximum SPL, then minimum policy loss, then earlier epoch",
+      "validation_every_epochs": 5,
+      "preflight_overfit_samples": 16,
+      "preflight_overfit_max_steps": 20000,
+      "halt_epochs": 10,
+      "halt_costs": [
+        0.0,
+        0.001,
+        0.01
+      ],
+      "halt_cost": "terminal_policy_loss + 2*(1-success) + lambda*T/16",
+      "halt_baseline": "EMA of previous minibatch cost, beta=.95; detached action-independent scalar",
+      "halt_selection": "no observed validation drop in overall or any Q1-Q4 success and SPL, and lower mean steps and actual batch1 latency; otherwise retain fixed16",
+      "joint_finetune": false,
+      "optional_unshared_baseline": false,
+      "diagnostic_sample_limit": 256,
+      "latency_repeats": 20
+    },
+    "started": "2026-10-24T16:32:19.703822",
+    "preflight_strict_pass": false,
+    "preflight_interpretation": "Only partial trainability established; full-data results remain a limited v0.1 test, not proof that problem complexity caused failure",
+    "smoke_solver": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_163258_smoke_c663a1ae",
+    "smoke_halt": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_163311_halt_smoke_fa3af49f",
+    "solver": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_163337_solver_390e42f9",
+    "halt": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_185845_runtime_review_33602d1b",
+    "status": "complete",
+    "finished": "2026-10-24T18:56:22.303901",
+    "preservation_exact": true,
+    "halt_training": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_181350_halt_57bd85b2",
+    "runtime_review": "D:\\project\\00_ai_research\\H002_recurrent_reasoning\\SH002_latent_attention_reasoning\\EXP001_latent_recurrent_v01\\results\\20261024_185845_runtime_review_33602d1b"
+  },
+  "solver": "20261024_163337_solver_390e42f9",
+  "halt": "20261024_185845_runtime_review_33602d1b",
+  "all_run_directories": [
+    "20261024_161159_phase0",
+    "20261024_161547_overfit_43e953be",
+    "20261024_161908_overfit_142b4425",
+    "20261024_162825_overfit_7bc8362c",
+    "20261024_163258_smoke_c663a1ae",
+    "20261024_163311_halt_smoke_fa3af49f",
+    "20261024_163337_solver_390e42f9",
+    "20261024_181350_halt_57bd85b2",
+    "20261024_185845_runtime_review_33602d1b"
+  ],
+  "note": "phase0=reference audit; overfit=training feasibility (including failed/extended); smoke=plumbing only; solver=main; halt=frozen-policy stage; matching checkpoint/result IDs are one run"
+}

@@ -11,6 +11,7 @@
 | H002 | SH001 | [EXP002 Maze Propagation](H002_recurrent_reasoning/SH001_shared_weight_iteration/EXP002_maze_propagation/README.md) | 3seed×4방식 80epoch 완료·재검증 통과, 문맥 보존 반복 개선·단계 전파 부분 재현 |
 | H002 | SH001 | [EXP003 Complexity History Fusion](H002_recurrent_reasoning/SH001_shared_weight_iteration/EXP003_complexity_history_fusion/README.md) | 3seed×7방식 실행·검증 완료, 전체 기록의 추가 이익 미약·조건부 |
 | H002 | SH001 | [EXP004 Official Pathfinding](H002_recurrent_reasoning/SH001_shared_weight_iteration/EXP004_official_pathfinding/README.md) | Moving AI 공식 52,516문제·3seed 완료, 실제 S→G 성공률 및 기록 통합 검증 |
+| H002 | [SH002 Latent Attention Reasoning](H002_recurrent_reasoning/SH002_latent_attention_reasoning/README.md) | [EXP001 Latent Recurrent v0.1](H002_recurrent_reasoning/SH002_latent_attention_reasoning/EXP001_latent_recurrent_v01/README.md) | 3seed 잠재 Attention·종료 정책 실험 완료, 반복 이득 변동·성능 유지형 계산 절약 실패 |
 
 ## 공통 관리 규칙
 
