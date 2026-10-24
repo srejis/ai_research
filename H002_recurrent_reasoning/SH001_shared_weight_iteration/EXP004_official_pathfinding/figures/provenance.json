@@ -1,0 +1,16 @@
+{
+  "run_id": "20261024_001323_main_ff5cf824",
+  "seed": 42,
+  "files": {
+    "history_interventions.png": "a1367b9923775890bff2f4560d3d4a0b370c24ee98902057bb3a54de6b14f090",
+    "scenario_1305_paths.png": "0a386457566e4535077997cd0626116f3e8b913bbfdc06be7758924b7dcd5c42",
+    "scenario_3689_distance_history.png": "5a1dff5ec6a895ae8d74f82197f4cb70c6efcca2f99ae23b5ddc9b57bcc1ce4c",
+    "scenario_3689_paths.png": "fa77a6c39266898d2dee890052771e6bf4fd90a2b04975245b6151e75332c405",
+    "success_by_difficulty.png": "615de1542c0cab3d2e852932e41f269ee23d5283589533078cdf5ae91f87ba5d"
+  },
+  "visualization": {
+    "samples": 9,
+    "official_walls_SG_and_oracle_paths_match": true,
+    "coordinate_axes": "imshow origin=upper; scatter x=official x, y=official y; lines use same coordinates"
+  }
+}
